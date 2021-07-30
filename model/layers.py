@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from model.utils import get_same_padding
+from .utils import get_same_padding
 
 class GroupShuffle(nn.Module):
 

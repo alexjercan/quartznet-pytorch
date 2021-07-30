@@ -1,7 +1,7 @@
 from torch import nn
 import torch
-from model.layers import MainBlock
-from model.utils import init_weights
+from .layers import MainBlock
+from .utils import init_weights
 
 class QuartzNet(nn.Module):
     def __init__(

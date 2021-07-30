@@ -1,4 +1,3 @@
-import torch
 from torch import nn
 
 def get_same_padding(kernel_size, stride, dilation):
